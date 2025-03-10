@@ -1,0 +1,200 @@
+/* 重置一些預設樣式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 全局設置 */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* 頁首設計 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+header .logo h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #d1d1d1;
+}
+
+/* 首頁大圖 */
+.hero {
+    background-image: url('https://www.tesla.com/sites/default/files/images/blogs/tesla_model_3_hero.jpg'); /* 這是特斯拉的圖片，您可以換成自己的圖片 */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e82127;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #c71c21;
+}
+
+/* 車型區域 */
+.models {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.models h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.model-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.model-card {
+    background-color: #fff;
+    padding: 30px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.model-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.model-card p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* 解釋區域 */
+.exmodels {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.exmodels h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.exmodel-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.exmodel-card {
+    background-color: #fff;
+    padding: 30px;
+    width: 30%;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.exmodel-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.exmodel-card p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* 聯絡區域 */
+.contact {
+    padding: 60px 20px;
+    background-color: #e9e9e9;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 50%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.contact form button {
+    padding: 15px 30px;
+    background-color: #e82127;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact form button:hover {
+    background-color: #c71c21;
+}
+
+/* 頁腳 */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
