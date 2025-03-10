@@ -118,6 +118,42 @@ header nav a:hover {
     color: #666;
 }
 
+/* 解釋區域 */
+.exmodels {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.exmodels h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.exmodel-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.exmodel-card {
+    background-color: #fff;
+    padding: 30px;
+    width: 30%;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.exmodel-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.exmodel-card p {
+    font-size: 1.1em;
+    color: #666;
+}
+
 /* 聯絡區域 */
 .contact {
     padding: 60px 20px;
