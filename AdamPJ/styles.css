@@ -46,7 +46,7 @@ header nav a:hover {
 
 /* 首頁大圖 */
 .hero {
-    background-image: url('https://adamdengac.github.io/AdamPJ/AdamPJ/首頁大圖12.png'); /* 這是特斯拉的圖片，您可以換成自己的圖片 */
+    background-image: url('https://adamdengac.github.io/AdamPJ/AdamPJ/首頁大圖.png'); /* 這是特斯拉的圖片，您可以換成自己的圖片 */
     background-size: cover;
     background-position: center;
     height: 100vh;
